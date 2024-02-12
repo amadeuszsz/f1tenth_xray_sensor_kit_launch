@@ -1,0 +1,29 @@
+sensor_kit_base_link:
+  camera_link:
+    x: 0.3657
+    y: 0
+    z: 0.0259
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  laser:
+    x: 0.35
+    y: 0
+    z: 0.1074
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  vesc/imu_link:
+    x: 0.10
+    y: 0.0
+    z: 0.05
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  xsens/imu_link:
+    x: 0.10
+    y: 0.0
+    z: 0.05
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0

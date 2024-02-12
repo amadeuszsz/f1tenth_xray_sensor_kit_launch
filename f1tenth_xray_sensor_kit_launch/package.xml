@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>f1tenth_xray_sensor_kit_launch</name>
+  <version>1.0.0</version>
+  <description>The f1tenth_xray_sensor_kit_launch package</description>
+  <maintainer email="amadeusz.szymko@put.poznan.pl">Amadeusz Szymko</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <exec_depend>bluespace_ai_xsens_mti_driver</exec_depend>
+  <exec_depend>gscam</exec_depend>
+  <exec_depend>imu_corrector</exec_depend>
+  <exec_depend>joy_controller</exec_depend>
+  <exec_depend>urg_node</exec_depend>
+  <exec_depend>vehicle_velocity_converter</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>autoware_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
